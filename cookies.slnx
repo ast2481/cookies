@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="cookies.vcxproj" />
+  <Project Path="cookies.vcxproj" Id="3a297b8e-fa79-44e6-9158-d016216d77bf" />
 </Solution>

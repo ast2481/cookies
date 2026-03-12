@@ -8,8 +8,8 @@ int main()
 
     const int Cookies_Recipe = 48;
     const double Sugar = 1.5;
-    const double Butter = 1.0
-    const double FLOUR = 2.75;
+    const double Butter = 1.0;
+    const double Flour = 2.75;
 
     int cookiesWanted;
 
@@ -18,7 +18,7 @@ int main()
 
     double sugarpercookie = Sugar / Cookies_Recipe;
     double butterpercookie = Butter / Cookies_Recipe;
-    double flourpercookie = FLOUR / Cookies_Recipe;
+    double flourpercookie = Flour / Cookies_Recipe;
 
     double sugarNeeded = sugarpercookie * cookiesWanted; 
     double butterNeeded = butterpercookie * cookiesWanted;
@@ -26,7 +26,7 @@ int main()
 
     cout << "Cups of sugar needed:" << sugarNeeded << endl;
     cout << " cups of butter needed:" << butterNeeded << endl;
-    cout << " cups of flour needed:" << flourNeeded << endl;
+    cout << " cups of flour needed:" << flourneeded << endl;
 
     return 0;
 
